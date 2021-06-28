@@ -16,7 +16,7 @@ public class Jukebox {
 
     public static void main(String[] args) {
         Jukebox jukebox = new Jukebox();
-        int position = 2;
-        jukebox.music(position);
+        int find = 2;
+        jukebox.music(find);
     }
 }
