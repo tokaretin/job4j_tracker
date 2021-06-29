@@ -2,14 +2,13 @@ package ru.job4j.oop;
 
 public class DummyDic {
     public String engToRus(String eng) {
-        String voice = "Неизвестное слово + " + eng;
-        return voice;
+        return "Неизвестное слово + " + eng;
     }
 
     public static void main(String[] args) {
         DummyDic dammy = new DummyDic();
-        String engl = "eng";
-        String engToRus = dammy.engToRus(engl);
-        System.out.println(engToRus);
+        String english = "eng";
+        String engToRuss = dammy.engToRus(english);
+        System.out.println(engToRuss);
     }
 }
