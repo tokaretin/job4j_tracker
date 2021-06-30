@@ -15,6 +15,5 @@ public class Story {
         hare.eat(ball);
         wolf.eat(ball);
         fox.eat(ball);
-
     }
 }
