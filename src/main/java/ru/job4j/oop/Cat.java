@@ -11,7 +11,7 @@ public class Cat {
     private String name;
 
     public  void show() {
-        System.out.println("The " + this.name + " eats " + this.food);
+        System.out.println(this.name + " eats " + this.food);
     }
 
     public void eat(String meat) {
@@ -27,16 +27,15 @@ public class Cat {
         String say = peppy.sound();
         System.out.println("Peppy says " + say);
         System.out.println();
-        System.out.println("There are gav's food.");
+        System.out.println("This is Gav's food.");
         Cat gav = new Cat();
         gav.eat("cutlet");
         gav.giveNick("Gav");
         gav.show();
-        System.out.println("There are black's food.");
+        System.out.println("This is Black's food.");
         Cat black = new Cat();
         black.giveNick("Black");
         black.eat("fish");
         black.show();
-
     }
 }
