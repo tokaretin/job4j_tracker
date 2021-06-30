@@ -5,7 +5,8 @@ public class Wolf {
         System.out.println("Волк съест девочку");
     }
 
-    public void eat(Ball ball){
+    public void tryEat(Ball ball){
+
         System.out.println("Волк ест колобка");
     }
 }
