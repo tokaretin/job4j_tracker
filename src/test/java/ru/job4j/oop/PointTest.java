@@ -49,4 +49,22 @@ public class PointTest {
         double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void whenDistance090To052Then4() {
+        int expected = 4;
+        Point a = new Point(0, 9, 0);
+        Point b = new Point(0, 5, 2);
+        double out = a.distance(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void whenDistance085To017Then7() {
+        int expected = 7;
+        Point a = new Point(0, 8, 5);
+        Point b = new Point(0, 1, 7);
+        double out = a.distance(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
