@@ -3,7 +3,6 @@ package ru.job4j.tracker;
 public class Item {
 
     private int id;
-
     private String name;
 
     public int getId() {
@@ -14,7 +13,7 @@ public class Item {
         return name;
     }
 
-    public Item(){
+    public Item() {
     }
 
     public Item(String name) {
@@ -22,8 +21,8 @@ public class Item {
     }
 
     public Item(int id, String name) {
-        this.name = name;
         this.id = id;
+        this.name = name;
     }
 
     public void setId(int id) {
@@ -33,6 +32,10 @@ public class Item {
     public void setName(String name) {
         this.name = name;
     }
+}
+
+
+/** для вызывания методов
 
     public void printInfo(){
         System.out.println("ID: " + id);
@@ -46,4 +49,5 @@ public class Item {
         Item second = new Item(525, "Сергей");
         second.printInfo();
     }
-}
+
+ */
