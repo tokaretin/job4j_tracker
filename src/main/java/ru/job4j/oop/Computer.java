@@ -3,9 +3,7 @@ package ru.job4j.oop;
 public class Computer {
 
     private boolean multiMonitor;
-
     private int ssd;
-
     private String cpu;
 
     public Computer() {
