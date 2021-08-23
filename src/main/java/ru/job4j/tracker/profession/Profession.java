@@ -23,6 +23,7 @@ public class Profession {
         System.out.println("Образование: " + education);
         System.out.println("Дата рождения: " + birthday);
 
+
     }
 
     public static class Builder extends Engineer {
